@@ -1,0 +1,13 @@
+DocuMind Technologies - Internal Employee Policy Handbook
+
+Section 1: Work Hours and Remote Work Policy
+Employees at DocuMind Technologies are expected to fulfill 40 hours per week. Flexible working hours are available between 8:00 AM and 7:00 PM. Remote work is permitted up to 3 days per week with manager approval. All remote workers must maintain an active presence on Slack and attend scheduled team standups.
+
+Section 2: Paid Time Off (PTO) and Leaves
+Full-time employees receive 20 days of paid vacation annually, accrued at a rate of 1.66 days per month. In addition, employees are granted 10 days of sick leave and 5 personal days per year. Unused PTO up to 5 days can be carried over into the next calendar year.
+
+Section 3: Equipment and Home Office Allowance
+DocuMind provides every new engineering hire with a 16-inch MacBook Pro or Dell XPS workstation, a 27-inch 4K monitor, and an annual $500 home office stipend for ergonomic accessories, high-speed internet, or productivity tools. Equipment remains company property and must be returned upon employment termination.
+
+Section 4: Code of Conduct and Confidentiality
+All employee communications and intellectual property developed during employment belong to DocuMind Technologies. Confidential technical data, including customer vector embeddings and fine-tuned LLM model weights, must never be exported to unapproved personal storage devices.

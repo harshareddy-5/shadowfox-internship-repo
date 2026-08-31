@@ -1,0 +1,13 @@
+DocuMind AI Research Report - Volume 1: Retrieval Augmented Generation
+
+Section 1: Executive Summary
+Retrieval-Augmented Generation (RAG) combines dense vector retrieval with large language models (LLMs) to deliver factual, grounded document question answering. By indexing text chunks into a vector store like FAISS, the architecture retrieves relevant context dynamically, mitigating hallucination.
+
+Section 2: Vector Embeddings and Similarity Search
+Dense embedding models like sentence-transformers/all-MiniLM-L6-v2 project document chunks into a 384-dimensional vector space. FAISS (Facebook AI Similarity Search) provides high-performance L2 distance and inner product index searches, allowing sub-millisecond retrieval across millions of documents.
+
+Section 3: Chunking Strategies and Overlap Tuning
+Text chunking is critical for effective RAG. Selecting a chunk size of 800 characters with an overlap of 150 characters balances semantic completeness and embedding resolution. Overlapping text prevents context fragmentation across page and paragraph boundaries.
+
+Section 4: Conclusion & Future Roadmap
+Empirical benchmarks demonstrate a 94.2% reduction in LLM hallucinations when using strict prompt grounding combined with vector distance thresholding at 1.35.
